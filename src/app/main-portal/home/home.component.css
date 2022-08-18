@@ -20,7 +20,7 @@ body{
     background-position: center center;
     background-size: cover;
     position: relative;
-     z-index: -1;
+     z-index: 0;
      margin-top: -76px;
 } 
 
@@ -58,7 +58,7 @@ body{
      font-size: 19px;
      padding: 12px 9px;
      border-radius: 0px;
-     z-index: 9;
+     
    
  }
  .btn1:hover{
@@ -682,8 +682,11 @@ Testmonial-Section
     font-size: 14px;
     margin-top: 5px;
 }
-.icon{
-    margin-left: 60px;
+.client{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 63px;
 }
 .icon>.fa{
     color: #ff2300;
@@ -693,14 +696,67 @@ Testmonial-Section (reviews-1)
 ******************************/
 
 .reviews1{
+background: rgb(255 230 230);
+width: 100%;
+padding: 20px;
+position: relative;
+box-shadow:  2px 2px 17px rgb(237 235 235);
+}
+.cl-img1{
+    background-image: url("../../../assets/Images/newyork.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+.reviews1>p{
+    font-size: 14px;
+    margin-left: 60px;
+}
+.reviews1>h3{
+    margin-left: 60px;
+    
+}
+.icon1{
+    margin-left: 60px;
+}
+
+
+
+/*****************************
+Testmonial-Section (reviews-2)
+******************************/
+
+.reviews2{
     background: rgb(255 230 230);
     width: 100%;
+    margin-left: 30px;
     padding: 20px;
     position: relative;
-    box-shadow:  2px 2px 17px rgb(237 235 235);
+    box-shadow: 2px 2px 17px rgb(237 235 235);
     }
-    .cl-img1{
-        background-image: url('../../../assets/Images/newyork.png');
+    @media (max-width:991px){
+        .reviews2 {
+            margin-left: 0%;
+            margin-bottom: 10px;
+    }
+        .reviews1 {
+            margin-bottom: 10px;
+    }
+    }
+    @media (max-width:492px){
+        .reviews2 {
+            margin-left: 0%;
+            margin-bottom: 50px;
+    }
+    }
+    .cl-img2{
+        background-image: url('../../../assets/Images/washington.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -711,52 +767,18 @@ Testmonial-Section (reviews-1)
         top: 20px;
         left: 5px;
     }
-    .reviews1>p{
+    .reviews2>p{
         font-size: 14px;
         margin-left: 60px;
     }
-    .reviews1>h3{
+    .reviews2>h3{
         margin-left: 60px;
         
     }
-    .icon1{
+    .icon2{
         margin-left: 60px;
     }
-    /*****************************
-    Testmonial-Section (reviews-2)
-    ******************************/
-    
-    .reviews2{
-        background: rgb(255 230 230);
-        width: 100%;
-        margin-left: 30px;
-        padding: 20px;
-        position: relative;
-        box-shadow: 2px 2px 17px rgb(237 235 235);
-        }
-        .cl-img2{
-            background-image: url('../../../assets/Images/washington.png');
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 62px;
-            width: 62px;
-            border-radius: 50%;
-            position: absolute;
-            top: 20px;
-            left: 5px;
-        }
-        .reviews2>p{
-            font-size: 14px;
-            margin-left: 60px;
-        }
-        .reviews2>h3{
-            margin-left: 60px;
-            
-        }
-        .icon2{
-            margin-left: 60px;
-        }
+
         /*********** Footer-Section **********/
         footer{
             text-align: center;
@@ -778,16 +800,41 @@ Testmonial-Section (reviews-1)
         }
         .social-links>.fa-facebook-official{
             color: rgb(7, 22, 107);
+            padding-right: 5px;
             
         }
         .social-links>.fa-youtube-play{
               color: red;
-              
+              padding-right: 5px;
         }
         .social-links>.fa-twitter{
             color: rgb(0, 132, 255);
+            padding-right: 5px;
         }
         footer>h4>.fa-heart{
             color: red;
+        }
+        @media (max-width:612px){
+            .social-links{
+                margin-top: 60px;
+                padding-right: 5px;
+            font-size: 28px;
+            padding-bottom: 17px;
+            }
+        }
+        @media (max-width:492px){
+            .social-links{
+                margin-top: 100px;
+            }
+        }
+        @media (max-width:426px){
+            .social-links{
+                margin-top: 130px;
+            }
+        }
+        @media (max-width:387px){
+            .social-links{
+                margin-top: 170px;
+            }
         }
        /*********** END **********/
