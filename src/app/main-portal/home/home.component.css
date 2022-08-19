@@ -38,9 +38,8 @@ body{
     font-size: 62px;
     margin-top: 46vh;
  }
- .text-box>{
-   margin: 10px 0px 40px;
-   
+ .text-box{
+   margin: 10px 0px 40px; 
  }
 .text-box> p{
    font-size: 19px; 
