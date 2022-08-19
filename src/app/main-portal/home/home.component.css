@@ -778,6 +778,30 @@ Testmonial-Section (reviews-2)
     .icon2{
         margin-left: 60px;
     }
+    @media (max-width:771px){
+        .reviews2>p{
+            font-size: 12px;
+            margin-left: 60px;
+        }
+        .reviews2>h3{
+            margin-left: 60px;
+            font-size: 14px;
+           
+        }
+        .reviews1 {
+            margin-bottom: 10px;
+            margin-top: -54px;
+    }
+        .reviews1>p{
+            font-size: 12px;
+            margin-left: 60px;
+        }
+        .reviews1>h3{
+            margin-left: 60px;
+            font-size: 14px;
+            
+        }
+    }
 
         /*********** Footer-Section **********/
   
