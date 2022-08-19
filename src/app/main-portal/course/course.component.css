@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0%;
     padding: 0%;
     font-family: Poppins;
@@ -21,6 +21,7 @@
     background-size: cover;
     position: relative;
     z-index: 1;
+    margin-top: -76px;
 }
 
   .text-box{
@@ -30,14 +31,18 @@
      align-items: center;
      height: 50vh;
      color: white;
-     margin-top: -76px;
   } 
   .text-box>h1{
      margin-bottom: 25px;
      font-size: 45px;
      border-bottom: 6px solid red;
   }
- 
+    
+  @media (max-width: 1399px) {
+    .text-box>h1{
+        font-size: 33px;
+     }
+    }
   /********* 
   Course-Section
   *********/
@@ -52,11 +57,6 @@
   .section1>p{
      text-align: center;
      margin-top: 21px;
-  }
-  .c1{
-   
-    width: 85%;
-    margin: auto;
   }
   .box{
   margin-top: 62px;

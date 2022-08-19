@@ -39,6 +39,22 @@
     font-size: 45px;
     border-bottom: 6px solid red;
 }
+@media (max-width:505px){
+    .text-box>h1 {
+        margin-bottom: 25px;
+        font-size: 35px;
+        border-bottom: 6px solid red;
+    }
+   
+}
+@media (max-width:369px){
+    .text-box>h1 {
+        margin-bottom: 25px;
+        font-size: 31px;
+        border-bottom: 6px solid red;
+    }
+   
+}
 /*****************  
   Contact-Section 
 *****************/
@@ -68,6 +84,12 @@ span{
     font-size: 12px;
     color: #808080ad;
 }
+@media (max-width:1187px){
+    .text>h1{
+        padding: 0px 0px;
+    }
+   
+}
 .fa-home{
     position: absolute;
     top: 83px;
@@ -96,7 +118,7 @@ span{
 input{
     height: 19px;
     width: 94%;
-    padding: 7px;
+    padding: 20px;
     outline: none;
     margin-bottom: 18px;
     margin-left: 10px;
@@ -110,7 +132,7 @@ input{
   textarea{
     outline: none;
     width: 94%;
-    padding: 7px;
+    padding: 20px;
     margin-left: 10px;
     border: 1px solid #c0c0c0b3;
     background: #c0c0c033;
@@ -126,7 +148,7 @@ input{
     color: rgb(255, 2, 2);
     font-size: 19px;
     padding: 6px 9px;
-    width: 76px;
+    width: 87px;
     margin: 19px 10px;
 }
 .btn:hover{

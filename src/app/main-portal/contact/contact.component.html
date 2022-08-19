@@ -6,23 +6,63 @@
 <!-------------- Contact-Section --------------->
 <div class="container">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-lg-6">
         <div class="text">
             <h1>Get In Touch</h1>
             <i class="fa fa-home" ></i> <p>XYZ Road, ABC Building <br> <span>Pakistan Lahore</span></p>
-            <i class="fa fa-phone" ></i> <p>+9256-4325754 <br> <span>Monday to Saturday 9am to 8pm</span></p>
-            <i class="fa fa-envelope" ></i> <p>example@gmail.com<br> <span>Email us your query</span></p>
+            <i class="fa fa-phone"></i> <p>+9256-4325754 <br> <span>Monday to Saturday 9am to 8pm</span></p>
+            <i class="fa-regular fa-envelope"></i> <p>example@gmail.com<br> <span>Email us your query</span></p>
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-lg-6">
         <div class="contact">
-            <form>
-                <input type="text" placeholder="Enter Name">
-                <input type="tel" placeholder="Enter Phone Number">
-                <input type="email" placeholder="Enter Email">
+            <form (ngsubmit)="submitMyForm()" [formGroup]="myForm" >
+                <input type="text" placeholder="Enter Name" formControlName="Name">
+
+                <!-- <div class="error  text-danger"
+                *ngIf="myForm.controls['Name'].invalid && (myForm.controls['Name'].dirty || myForm.controls['Name'].touched)">
+                <span *ngIf="myForm.controls['Name'].errors.minlength || myForm.controls['Name'].errors.maxlength ">
+                  <small>Name between 4 to 20 Characters!</small></span>
+                <span *ngIf="(myForm.controls['Name'].errors.pattern)">
+                  Only Alphabets & Spaces Allowed</span>
+                <span *ngIf="myForm.controls['Name'].errors.required">
+                  <small class="text-danger text-center">Field Required!</small>
+                </span>
+              </div> -->
+
+              
+
+                <input type="email" placeholder="Enter Email" formControlName="Email">
+
+                <!-- <div class="error  text-danger"
+                *ngIf="myForm.controls['Email'].invalid && (myForm.controls['Email'].dirty || myForm.controls['Email'].touched)">
+                <span *ngIf="myForm.controls['Email'].errors.minlength || myForm.controls['Email'].errors.maxlength "></span>
+                <span *ngIf="myForm.controls['Email'].errors.required">
+                  <small class=" text-danger">Field Required!</small>
+                </span>
+              </div> -->
+
                 <textarea placeholder="Write Text...." cols="30" rows="10"></textarea>
                 <a href="" class="btn">Submit</a>
             </form>
+
+            <!-- <form action="">
+                
+                  <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="mb-3">
+                    <input type="tel" class="form-control" placeholder="Number">
+                  </div>
+                  <div class="mb-3">
+                    <textarea placeholder="Write-Text-Message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                
+            </form> -->
     </div>
     </div>
   </div>

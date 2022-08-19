@@ -8,8 +8,9 @@ import { AboutComponent } from './main-portal/about/about.component';
 import { ContactComponent } from './main-portal/contact/contact.component';
 import { HeaderComponent } from './main-portal/header/header.component';
 import { FooterComponent } from './main-portal/footer/footer.component';
-import { CourseComponent } from './main-portal/course/course.component';
 import { BlogComponent } from './main-portal/blog/blog.component';
+import { CourseComponent } from './main-portal/course/course.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,14 @@ import { BlogComponent } from './main-portal/blog/blog.component';
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    CourseComponent,
-    BlogComponent
+    BlogComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
