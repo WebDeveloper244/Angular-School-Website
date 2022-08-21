@@ -55,3 +55,8 @@ padding-bottom: 17px;
         margin-top: 209px;
     }
  }
+ @media (max-width:320px){
+      .footer>h3{
+        margin-top: 240px;
+    }
+ }

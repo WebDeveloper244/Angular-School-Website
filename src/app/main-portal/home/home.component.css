@@ -80,18 +80,6 @@ body{
  }
  @media (max-width:770px){
 
-    .banner{
-        width: 100%;
-        height: 85vh;
-        background-image: url('../../../assets/Images/banner.png');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        position: relative;
-         z-index: -1;
-         margin-top: -76px;
-    } 
-
     .text-box>h1{
         margin-bottom: 25px;
         font-size: 52px;
@@ -100,18 +88,7 @@ body{
      }
  @media screen and (max-width:720px){
 
-    .banner{
-        width: 100%;
-        height: 85vh;
-        background-image: url('../../../assets/Images/banner.png');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        position: relative;
-         z-index: -1;
-         margin-top: -76px;
-    } 
-
+ 
     .text-box>h1{
         margin-bottom: 20px;
         font-size: 45px;
@@ -128,17 +105,6 @@ body{
     }
      @media screen and (max-width:618px){
 
-        .banner{
-            width: 100%;
-            height: 85vh;
-            background-image: url('../../../assets/Images/banner.png');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            position: relative;
-             z-index: -1;
-             margin-top: -76px;
-        } 
     
         .text-box>h1{
             margin-bottom: 25px;
@@ -157,15 +123,7 @@ body{
      @media screen and (max-width:555px){
 
         .banner{
-            width: 100%;
             height: 66vh;
-            background-image: url('../../../assets/Images/banner.png');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            position: relative;
-             z-index: -1;
-             margin-top: -76px;
         } 
     
         .text-box>h1{
@@ -184,6 +142,12 @@ body{
            width: 14vh;
            font-size: 10px;
          }
+         }
+         @media screen and (max-width:385px){
+            .text-box> p{
+                font-size: 8px; 
+                margin-bottom: 8px;
+             }
          }
   
  
@@ -320,12 +284,25 @@ font-size: 15px;
                 }
  
 }
+@media (max-width: 385px) {
+    .box{
+        margin-top: 55px;
+        margin-left: 19%;
+      }
+}
+@media (max-width: 320px) {
+    .box{
+        margin-top: 55px;
+        margin-left: 11%;
+      }
+}
 @media (max-width: 305px) {
     .box{
         margin-top: 55px;
         margin-left: 11%;
         
         }
+        
 }
 
 /**************
@@ -459,9 +436,19 @@ Campus-Section
      font-size: 17px;
     }
 }
+@media (max-width: 485px){ 
+    .campus-box{
+        margin-left: 76px;
+        }
+}
 @media (max-width: 461px){ 
     .campus-box{
         margin-left: 68px;
+        }
+}
+@media (max-width: 417px) {
+    .campus-box{
+        margin-left: 46px;
         }
 }
 @media (max-width: 390px){ 
@@ -474,6 +461,12 @@ Campus-Section
         margin-left: 18px;
         }
 }
+@media (max-width: 320px) {
+    .campus-box{
+        margin-left: 0%;
+        }
+}
+
 
 
 /**************
@@ -550,6 +543,39 @@ Facilites-Section (container-1)
         margin-left: 72px;
     }
 }
+@media (max-width:417px){
+    .img1{
+        margin-left: 4px;
+      }
+      .container1>h1{
+        margin-left: 0px;
+    }
+    .container1>p{
+        margin-left: 10px;
+    }
+}
+@media (max-width:385px){
+    .img1{
+        margin-left: 2px;
+      }
+      .container1>h1{
+        margin-left: 30px;
+    }
+    .container1>p{
+        margin-left: 8px;
+    }
+}
+@media (max-width:320px){
+    .img1{
+        margin-left: 0px;
+      }
+      .container1>h1{
+        margin-left: 6px;
+    }
+    .container1>p{
+        margin-left: 4px;
+    }
+}
 /*****************************
 Facilites-Section (container-2)
 ******************************/
@@ -597,6 +623,39 @@ Facilites-Section (container-2)
     }
     .container2>p{
         margin-left: 72px;
+    }
+}
+@media (max-width:417px){
+    .img2{
+        margin-left: 4px;
+      }
+      .container2>h1{
+        margin-left: 0px;
+    }
+    .container2>p{
+        margin-left: 10px;
+    }
+}
+@media (max-width:385px){
+    .img2{
+        margin-left: 2px;
+      }
+      .container2>h1{
+        margin-left: 30px;
+    }
+    .container2>p{
+        margin-left: 8px;
+    }
+}
+@media (max-width:320px){
+    .img2{
+        margin-left: 0px;
+      }
+      .container2>h1{
+        margin-left: 6px;
+    }
+    .container2>p{
+        margin-left: 4px;
     }
 }
 .container2>h1{
@@ -662,6 +721,41 @@ Facilites-Section (container-3)
     }
     .container3>p{
         margin-left: 72px;
+    }
+}
+@media (max-width:417px){
+    .img3{
+        margin-left: 4px;
+      }
+      .container3>h1{
+        margin-left: 0px;
+    }
+    .container3>p{
+        margin-left: 10px;
+    }
+}
+@media (max-width:385px){
+    .img3{
+        margin-left: 2px;
+        width: 104%;
+      }
+      .container3>h1{
+        margin-left: 30px;
+    }
+    .container3>p{
+        margin-left: 8px;
+    }
+}
+@media (max-width:320px){
+    .img3{
+        margin-left: 0px;
+        width: 105%;
+      }
+      .container3>h1{
+        margin-left: 6px;
+    }
+    .container3>p{
+        margin-left: 4px;
     }
 }
 /*****************************

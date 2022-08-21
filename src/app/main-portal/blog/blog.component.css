@@ -159,7 +159,7 @@
   input{
     height: 19px;
     width: 94%;
-    padding: 7px;
+    padding: 20px;
     outline: none;
     margin-bottom: 18px;
     margin-left: 10px;
@@ -173,7 +173,7 @@
   textarea{
     outline: none;
     width: 94%;
-    padding: 7px;
+    padding: 20px;
     margin-left: 10px;
     border: 1px solid #c0c0c0b3;
     background: #c0c0c033;
